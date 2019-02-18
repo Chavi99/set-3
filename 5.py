@@ -1,4 +1,4 @@
-def sort_array(n,a):
+def median(n,a):
     for i in range(0,n):
         for j in range(i+1,n):
             if a[i]>a[j]:
@@ -14,4 +14,4 @@ def sort_array(n,a):
         print(a[(n//2)])
 n=int(input())
 ls=list(map(int,input().split()))
-sort_array(n,ls)
+median(n,ls)
